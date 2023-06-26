@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    color: #0a2458;
+    font-family: MercurySSm-Book-Pro_Web,serif;
+}
+header{
+    width:50%;
+    margin: auto;
+    line-height: 1.2rem;
+}
+header p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+header h1{
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.4em;
+}
+.breadcrumb img{
+    width:40px;
+    height: 20px;
+    padding: 0px 5px;
+}
+.breadcrumb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60%;
+    margin: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.breadcrumb p{
+    padding: 0px 5px;
+    font-size: 15px;
+}
+
+.introduction,.first-section,.second-section{
+    width:37.5%;
+    margin: auto;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+}
+.introduction{
+    margin-top: 4.5rem;
+}
+li{
+    margin-left: 1.2rem;
+}
+
+@media((max-width:1400px) and (min-width:1200px)){
+    .breadcrumb{
+        width: 80%;
+    }
+}
+@media((max-width:1200px) and ((min-width:900px))){
+    .first-section h2,.second-section h2{
+        font-size: 1.3rem;
+    }
+    header{
+        line-height: 1.3rem;
+        width:60%;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    .breadcrumb{
+        width: 80%;
+    }
+}
+@media((max-width:900px) and ((min-width:768px))){
+    .first-section h2,.second-section h2{
+        font-size: 1.2rem;
+    }
+    header{
+        line-height: 1.3rem;
+        width:60%;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    .breadcrumb{
+        width: 80%;
+        font-size: 12px;
+    }
+    .introduction,.first-section,.second-section{
+        width:45%;
+    }
+    .breadcrumb p{
+        font-size: 13px;
+        padding: 0px 3px;
+    }
+}
+@media((max-width:767px) and ((min-width:425px))){
+    .first-section h2,.second-section h2{
+        font-size: 0.95rem;
+    }
+    header{
+        line-height: 1.1rem;
+        width:80%;
+    }
+    header h1{
+        font-size: 1.5rem;
+    }
+    .breadcrumb{
+        width: 80%;
+        font-size: 12px;
+    }
+    .introduction,.first-section,.second-section{
+        width:60%;
+        font-size: 0.9rem;
+    }
+    .breadcrumb p{
+        font-size: 0.6rem;
+        padding: 0px 1px;
+    }
+    .introduction{
+        margin-top: 1.9rem;
+    }
+    .breadcrumb img{
+        width: 30px;
+    }
+}
+@media((max-width:425px) and ((min-width:375px))){
+    .first-section h2,.second-section h2{
+        font-size: 0.8rem;
+    }
+    header{
+        line-height: 1.1rem;
+        width:80%;
+    }
+    header h1{
+        font-size: 1.2rem;
+    }
+    .breadcrumb{
+        width: 80%;
+        font-size: 12px;
+    }
+    .introduction,.first-section,.second-section{
+        width:60%;
+        font-size: 0.8rem;
+        line-height: 1.25rem;
+    }
+    .breadcrumb p{
+        font-size: 0.5rem;
+        padding: 0px 1px;
+    }
+    .introduction{
+        margin-top: 1.9rem;
+    }
+    .breadcrumb img{
+        width: 30px;
+        height: 15px;
+    }
+    header p{
+        font-size: 10px;
+    }
+}
